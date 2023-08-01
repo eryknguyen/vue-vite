@@ -1,0 +1,93 @@
+project:
+  name: PJ234
+
+layout:
+  button:
+    logout: ログアウト
+    about: これは
+    home: ホーム
+    contact: コンタクト
+    back: 戻る
+    change-language: 言語切り替え
+
+login:
+  title: ログイン
+  description-0: アカウントをお持ちでない方、ログインできな
+  description-1: い方は、 こちらまでお問い合わせください。
+  description-2: "pj_234-web{'@'}outcome.tokyo.jp"
+
+  input:
+    key:
+      email: メールアドレス
+      password: パスワード
+
+    placeholder:
+      email: メールアドレスを入力してください
+      password: パスワードを入力してください
+
+  button:
+    login: ログイン
+
+error-message:
+  required: "{field}フィールドは必須です"
+  min-length: "{field} フィールドの長さは少なくとも{min}文字でなければなりません。"
+  invalid: "入力は有効な{field}ではありません。"
+
+input:
+  first_name: ファーストネーム
+  last_name: 苗字
+  full_name: フルネーム
+  phone_number: 電話番号
+  contact_message: メッセージ
+  email: メールアド
+  password: パスワード
+  confirm_password: パスワードを認証する
+
+  placeholder:
+    first_name: あなたの名を入力してください
+    last_name: 姓を入力してください
+    full_name: フルネーム
+    phone_number: 電話番号を入力してください
+    contact_message: メッセージ
+    email: 電子メールアドレス
+    password: あなたのパスワード
+    confirm_password: 確認用パスワードを入力してください
+
+  errors:
+    required: "{field}フィールドは必須です"
+    min-length: "{field} フィールドの長さは少なくとも{min}文字でなければなりません。"
+    invalid: "入力は有効な{field}ではありません。"
+
+
+intro:
+  desc: PJ 234 ホームページ
+  hi: こんにちは、{name}!
+  aka: としても知られている
+  whats-your-name: 君の名は。
+
+404:
+  page-not-found: 見つかりませんでした
+  description: お探しのページは存在しません。 以下に役立つリンクをいくつか示します。
+
+  button:
+    home: ホーム
+    back: 戻る
+
+contact:
+  title: 私たちを雇ってください。
+  description: 何でもご質問ください。ぜひご意見をお待ちしております
+  follow-us: フォローする
+
+  input:
+    key:
+      full-name: フルネーム
+      contact-message: メッセージ
+      email: メールアド
+
+    placeholder:
+      full-name: フルネーム
+      contact-message: メッセージ
+      email: 電子メールアドレス
+
+  button:
+    get-in-touch: 連絡する

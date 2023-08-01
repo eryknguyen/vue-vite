@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-black-800 bg-background
+}
+
+.btn {
+  @apply rounded tracking-wide border px-4 py-2 m-0.5
+}
+
+.btn-outline {
+  @apply bg-white border-blue text-blue hover:bg-blue hover:text-white transition-colors disabled:cursor-default duration-200 shrink-0
+}
+
+.btn-primary {
+  @apply bg-blue border-blue text-white hover:bg-white hover:text-blue transition-colors disabled:cursor-default duration-200 shrink-0
+}
+
+.btn-outline > a {
+  @apply hover:no-underline focus:no-underline text-blue
+}
+
+.btn-primary > a {
+  @apply hover:no-underline focus:no-underline text-white
+}
+
+input, textarea {
+  @apply w-full px-4 py-2 rounded border border-blue text-blue hover:outline-0 focus:outline-none focus-visible:border-2
+}
+
+a {
+  @apply text-blue hover:underline hover:text-blue focus:outline-none focus:underline text-blue
+}
+
+.error-message {
+ @apply text-sm text-red
+}
+
+
+

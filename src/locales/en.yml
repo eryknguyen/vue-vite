@@ -1,0 +1,65 @@
+project:
+  name: PJ234
+
+layout:
+  button:
+    logout: Logout
+    about: About
+    home: Home
+    contact: Contact
+    back: Go Back
+    change-language: Change languages
+
+
+login:
+  title: Login
+  description-0: If you do not have an account, you cannot log in.
+  description-1: If you are interested, please contact us.
+  description-2: "pj_234-web{'@'}outcome.tokyo.jp"
+
+  input:
+    key:
+      email: Email
+      password: password
+
+    placeholder:
+      email: Enter your Email address
+      password: Enter your Password
+
+  button:
+    login: Login
+
+error-message:
+  required: The {field} field is required
+  min-length: The {field} field must be at least {min} characters long.
+  invalid: The input is not a valid {field}.
+
+
+
+404:
+  page-not-found: Page not found
+  description: The page you are looking for doesn't exist. Here are some helpful links
+
+  button:
+    home: Home
+    back: Go Back
+
+contact:
+  title: Hire Us.
+  description: Ask us everything and we would love to hear from you
+  follow-us: Follow us
+
+  input:
+    key:
+      full-name: Full name
+      email: Email
+      contact-message: Message
+
+    placeholder:
+      full-name: Enter your Full name
+      email: Enter your Email address
+      contact-message: Enter your Message
+
+  button:
+    get-in-touch: Get in touch
+
